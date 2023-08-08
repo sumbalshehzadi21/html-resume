@@ -1,0 +1,50 @@
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+}
+
+.box {
+    overflow: auto;
+}
+
+#Profile {
+    /* float: right; */
+    clip-path: circle(50% at 50% 50%);
+    display: inline;
+    position: absolute;
+    top: 0px;
+    right: 72px;
+
+}
+
+#h-primary {
+    display: inline;
+    position: absolute;
+    top: 0px;
+    left: 26px;
+}
+
+#obj {
+
+    display: inline;
+    position: absolute;
+    top: 45px;
+    left: 28px;
+}
+
+#e-section {
+    margin-top: 100px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    margin-top: 2px;
+    font-size: 16px;
+}
